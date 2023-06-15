@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
 :root {
   --gradient-color: linear-gradient(to bottom right, #06cdff, 30%, #8200ff, #470c85);
   --black-color: #000000;
@@ -6,7 +8,7 @@
   --darkpurple-color: #470c85;
   --purple-color: #8200ff;
   --blue-color: #06cdff;
-  --font-family: "Source Sans Pro", sans-serif;
+  --font-family: "Playfair Display", sans-serif;
 }
 
 * {
@@ -361,4 +363,10 @@ input[type="text"],
 input[type="email"],
 textarea {
   color: var(--blue-color);
+}
+
+.footer {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1rem;
 }
