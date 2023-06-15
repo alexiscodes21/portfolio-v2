@@ -1,6 +1,6 @@
-// import "../css/AboutSection.css"
-import LinkedInIcon from "@mui/icons-material/LinkedIn";import GitHubIcon from "@mui/icons-material/GitHub";
-import "../App.css"
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import resume from "../pdf/Resume_AlexisWinters.pdf"
 
 const AboutSection = () => {
   return (
@@ -28,7 +28,7 @@ const AboutSection = () => {
               <GitHubIcon />
             </a>
           </div>
-          <a href="../pdf/Resume_AlexisWinters.pdf" target="_blank" rel="noreferrer" className="btn">
+          <a href={resume} target="_blank" rel="noreferrer" className="btn">
             Resume
           </a>
         </div>
