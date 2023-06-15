@@ -18,7 +18,7 @@ const Header = () => {
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize(); // Initialize the display based on the viewport width
+    handleResize();
 
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -29,7 +29,7 @@ const Header = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-header">
-          <a className="navbar-logo" href="#">
+          <a className="navbar-logo" href="#home">
             <img className="alexiswinters" src={alexiswinters} alt={"Alexis Winters"} />
           </a>
         </div>
