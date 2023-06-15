@@ -300,15 +300,6 @@ span {
   width: 1.2rem;
 }
 
-.githubcode {
-  transition: all 500ms ease;
-  color: var(--white-color);
-}
-
-.githubcode:hover {
-  color: var(--blue-color);
-}
-
 .project-links {
   border: 0.2rem solid var(--blue-color);
   border-radius: 1rem;
