@@ -7,7 +7,7 @@ import LaunchIcon from "@mui/icons-material/Launch";
 
 const ProjectsSection = () => {
   return (
-    <section className="projectsSection" id="projectSection">
+    <section className="projectsSection" id="projectsSection">
       <h2 className="sectionHeading">
         My <span>Projects</span>
       </h2>
