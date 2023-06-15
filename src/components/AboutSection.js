@@ -18,17 +18,17 @@ const AboutSection = () => {
             together!
           </p>
           <div className="social-media">
-            <a href="https://www.linkedin.com/in/alexis-winters/" target="_blank">
+            <a href="https://www.linkedin.com/in/alexis-winters/" target="_blank" rel="noreferrer">
               <LinkedInIcon />
             </a>
-            {/* <a href="https://www.instagram.com/alexisnicole.dev/" target="_blank">
+            {/* <a href="https://www.instagram.com/alexisnicole.dev/" target="_blank" rel="noreferrer">
               <i className="fa fa-instagram"></i>
             </a> */}
-            <a href="https://github.com/alexiscodes21/" target="_blank">
+            <a href="https://github.com/alexiscodes21/" target="_blank" rel="noreferrer">
               <GitHubIcon />
             </a>
           </div>
-          <a href="../pdf/Resume_AlexisWinters.pdf" target="_blank" className="btn">
+          <a href="../pdf/Resume_AlexisWinters.pdf" target="_blank" rel="noreferrer" className="btn">
             Resume
           </a>
         </div>
