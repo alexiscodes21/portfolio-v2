@@ -2,8 +2,8 @@ import bookkeeperguruSite from "../img/bookkeeperguru.jpeg";
 import socialdashboardSite from "../img/socialdashboard.jpg";
 import googlecloneSite from "../img/googleclone.jpg";
 import restaurantreviewsSite from "../img/plantopia.png";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LaunchIcon from "@mui/icons-material/Launch";
+// import GitHubIcon from "@mui/icons-material/GitHub";
+// import LaunchIcon from "@mui/icons-material/Launch";
 
 const ProjectsSection = () => {
   return (
@@ -17,18 +17,18 @@ const ProjectsSection = () => {
           <div className="card-body">
             <h3>Bookkeeper Business Landing Page</h3>
             <p>HTML, CSS, Bootstrap, Font Awesome</p>
-            <div>
+            <div className="card-links">
               <div className="project-links">
                 <a href="https://bookkeeper-website.web.app" target="_blank" rel="noreferrer">
                   <h3>
-                    Live Link <LaunchIcon />
+                    Live Link 
                   </h3>
                 </a>
               </div>
               <div className="project-links">
                 <a href="https://github.com/alexiscodes21/bookkeeper-website" target="_blank" rel="noreferrer">
                   <h3>
-                    View Code <GitHubIcon />
+                    View Code 
                   </h3>
                 </a>
               </div>
@@ -40,18 +40,18 @@ const ProjectsSection = () => {
           <div className="card-body">
             <h3>Social Media Dashboard w/ theme switcher</h3>
             <p>HTML, CSS, Javascript</p>
-            <div>
+            <div className="card-links">
               <div className="project-links">
                 <a href="https://social-media-dashboard-304fc.web.app/" target="_blank" rel="noreferrer">
                   <h3>
-                    Live Link <LaunchIcon />
+                    Live Link
                   </h3>
                 </a>
               </div>
               <div className="project-links">
                 <a href="https://github.com/alexiscodes21/social-media-dashboard" target="_blank" rel="noreferrer">
                   <h3>
-                    View Code <GitHubIcon />
+                    View Code
                   </h3>
                 </a>
               </div>
@@ -62,19 +62,19 @@ const ProjectsSection = () => {
           <img className="projects" src={googlecloneSite} alt={"Google Clone"} />
           <div className="card-body">
             <h3>Google Clone</h3>
-            <p>React, Material UI</p>
-            <div>
+            <p>React, Material UI, API</p>
+            <div className="card-links">
               <div className="project-links">
                 <a href="https://clone-f757f.web.app/" target="_blank" rel="noreferrer">
                   <h3>
-                    Live Link <LaunchIcon />
+                    Live Link
                   </h3>
                 </a>
               </div>
               <div className="project-links">
                 <a href="https://github.com/alexiscodes21/Google-clone" target="_blank" rel="noreferrer">
                   <h3>
-                    View Code <GitHubIcon />
+                    View Code
                   </h3>
                 </a>
               </div>
@@ -86,18 +86,18 @@ const ProjectsSection = () => {
           <div className="card-body">
             <h3>Restaurant Reviews Site</h3>
             <p>React, Reactstrap, Font Awesome</p>
-            <div>
+            <div className="card-links">
               <div className="project-links">
                 <a href="https://restaurant-reviews-site.web.app/" target="_blank" rel="noreferrer">
                   <h3>
-                    Live Link <LaunchIcon />
+                    Live Link
                   </h3>
                 </a>
               </div>
               <div className="project-links">
                 <a href="https://github.com/alexiscodes21/restaurant-reviews-site" target="_blank" rel="noreferrer">
                   <h3>
-                    View Code <GitHubIcon />
+                    View Code
                   </h3>
                 </a>
               </div>

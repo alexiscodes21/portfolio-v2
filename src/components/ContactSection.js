@@ -31,7 +31,7 @@ const ContactSection = () => {
           <input type="email" id="email" name="email" placeholder="Email Address" required />
           <input type="text" id="subject" name="subject" placeholder="Subject" required />
         </div>
-        <textarea type="text" id="message" name="message" cols="30" rows="10" placeholder="Hi Alexis..." required></textarea>
+        <textarea type="text" id="message" name="message" cols="30" rows="8" placeholder="Hi Alexis..." required></textarea>
         <input type="submit" value="Send Message" className="btn" />
       </form>
     </section>

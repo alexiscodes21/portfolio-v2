@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap");
 
 :root {
   --gradient-color: linear-gradient(to bottom right, #06cdff, 30%, #8200ff, #470c85);
@@ -8,7 +8,7 @@
   --darkpurple-color: #470c85;
   --purple-color: #8200ff;
   --blue-color: #06cdff;
-  --font-family: "Playfair Display", sans-serif;
+  --font-family: "League Spartan", sans-serif;
 }
 
 * {
@@ -23,7 +23,7 @@
 }
 
 html {
-  font-size: 75%;
+  font-size: 85%;
   overflow-x: hidden;
 }
 
@@ -46,7 +46,7 @@ section h2 {
 .navbar {
   top: 0;
   z-index: 100;
-  background-color: #333;
+  background-color: var(--black-color);
   color: var(--white-color);
   padding: 10px 0;
 }
@@ -113,7 +113,7 @@ section h2 {
   .navbar-logo {
     display: none;
   }
-} 
+}
 
 .alexiswinters {
   width: 15rem;
@@ -128,9 +128,13 @@ section h2 {
 
 .home-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.bio {
+  margin-right: 2rem;
 }
 
 .bio h3 {
@@ -179,7 +183,7 @@ span {
   border-radius: 50%;
   font-size: 2rem;
   color: var(--purple-color);
-  margin: 2rem 1rem 3rem 1rem;
+  margin: 2rem 1rem 2rem 0rem;
   text-decoration: none;
   transition: all 500ms ease;
 }
@@ -297,25 +301,35 @@ span {
   width: 1.2rem;
 }
 
+.card-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
 .project-links {
   border: 0.2rem solid var(--blue-color);
   border-radius: 1rem;
-  margin: 1rem;
+  margin: 0.2rem;
   padding: 0.4rem;
+  width: 8rem;
+  transition: all 500ms ease-out;
 }
 
-.project-links i {
-  color: var(--blue-color);
-  margin-left: 1rem;
+.project-links:hover {
+  background-color: var(--blue-color);
+  color: var(--white-color);
 }
 
 .project-links h3 {
   text-decoration: none;
-  transition: all 500ms ease-out;
 }
 
 .project-links h3:hover {
-  translate: 0.5rem 0;
+  /* translate: 0.5rem 0; */
+  color: var(--white-color);
 }
 
 .contactSection h3 {
@@ -342,7 +356,7 @@ span {
 .contactSection form .input-box input,
 .contactSection form textarea {
   width: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 1.6rem;
   background: var(--darkgray-color);
   border: 0.2rem solid var(--blue-color);
