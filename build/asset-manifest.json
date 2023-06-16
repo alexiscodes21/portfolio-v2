@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.18a916a7.css",
-    "main.js": "/static/js/main.33084c6f.js",
+    "main.js": "/static/js/main.5893c06c.js",
     "static/js/787.d9a20797.chunk.js": "/static/js/787.d9a20797.chunk.js",
     "static/media/plantopia.png": "/static/media/plantopia.51238c33983b73154e3d.png",
     "static/media/bookkeeperguru.jpeg": "/static/media/bookkeeperguru.ba7e94b5509d38c9f260.jpeg",
     "static/media/socialdashboard.jpg": "/static/media/socialdashboard.c35d5381f56a16790a84.jpg",
     "static/media/googleclone.jpg": "/static/media/googleclone.32ccbcc0009a5cb74bae.jpg",
     "static/media/alexiswinters.png": "/static/media/alexiswinters.28eab79e239354bab084.png",
-    "static/media/Resume_AlexisWinters.pdf": "/static/media/Resume_AlexisWinters.5e54aa4e1273d10e4a78.pdf",
+    "static/media/Resume_AlexisWinters.pdf": "/static/media/Resume_AlexisWinters.fb8d205daa9d4636345c.pdf",
     "static/media/react-native.svg": "/static/media/react-native.55360266b3781dae00a5a77c8916f82d.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
     "static/media/expressjs.svg": "/static/media/expressjs.75fff9be2f3b289ba7be1f43a08f7a4c.svg",
@@ -30,11 +30,11 @@
     "static/media/javascript.svg": "/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "static/media/material-ui.svg": "/static/media/material-ui.fd510ed8518b192069590b04e2e6348a.svg",
     "main.18a916a7.css.map": "/static/css/main.18a916a7.css.map",
-    "main.33084c6f.js.map": "/static/js/main.33084c6f.js.map",
+    "main.5893c06c.js.map": "/static/js/main.5893c06c.js.map",
     "787.d9a20797.chunk.js.map": "/static/js/787.d9a20797.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18a916a7.css",
-    "static/js/main.33084c6f.js"
+    "static/js/main.5893c06c.js"
   ]
 }
