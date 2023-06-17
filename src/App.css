@@ -27,6 +27,12 @@ html {
   overflow-x: hidden;
 }
 
+@media (max-width: 600px) {
+  html {
+    font-size: 60%;
+  }
+}
+
 body {
   background: var(--gradient-color);
   color: var(--white-color);
@@ -99,7 +105,6 @@ section h2 {
   margin-bottom: 5px;
 }
 
-/* Media query for smaller viewports */
 @media (max-width: 600px) {
   .navbar-toggle {
     display: block;
@@ -131,10 +136,6 @@ section h2 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-
-.bio {
-  margin-right: 2rem;
 }
 
 .bio h3 {
