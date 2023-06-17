@@ -257,17 +257,24 @@ span {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
 }
 
-@media screen and (min-width: 1024px) {
+
+@media screen and (max-width: 2000px) {
   .projects-container {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1275px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 725px) {
   .projects-container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -279,7 +286,7 @@ span {
 }
 
 .projects {
-  height: 12rem;
+  height: 14rem;
   border-radius: 1rem;
   width: 100%;
 }
