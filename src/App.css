@@ -50,6 +50,7 @@ section h2 {
 }
 
 .navbar {
+  position: sticky;
   top: 0;
   z-index: 100;
   background-color: var(--black-color);
@@ -260,7 +261,6 @@ span {
   grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
 }
-
 
 @media screen and (max-width: 2000px) {
   .projects-container {
