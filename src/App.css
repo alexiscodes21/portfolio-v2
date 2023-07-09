@@ -242,14 +242,10 @@ span {
   transform: scale(1.2, 1.2);
 }
 
-.github {
-  background-color: var(--white-color);
-  border-radius: 50%;
-}
-
+.github,
 .express {
   background-color: var(--white-color);
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
 .projectsSection h2 {
@@ -286,7 +282,7 @@ span {
 }
 
 .projects {
-  height: 14rem;
+  height: 12rem;
   border-radius: 1rem;
   width: 100%;
 }

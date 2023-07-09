@@ -1,5 +1,5 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
+// import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import resume from "../pdf/Resume_AlexisWinters.pdf";
 import React from "react";
@@ -41,9 +41,9 @@ const AboutSection = () => {
             <a href="https://www.linkedin.com/in/alexis-winters/" target="_blank" rel="noreferrer">
               <LinkedInIcon />
             </a>
-            <a href="https://www.instagram.com/alexisnicole.dev/" target="_blank" rel="noreferrer">
+            {/* <a href="https://www.instagram.com/alexisnicole.dev/" target="_blank" rel="noreferrer">
               <InstagramIcon />
-            </a>
+            </a> */}
             <a href="https://github.com/alexiscodes21/" target="_blank" rel="noreferrer">
               <GitHubIcon />
             </a>
