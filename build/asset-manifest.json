@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.89b71254.css",
-    "main.js": "/static/js/main.1907226a.js",
+    "main.js": "/static/js/main.39171af7.js",
     "static/js/787.d9a20797.chunk.js": "/static/js/787.d9a20797.chunk.js",
     "static/media/plantopia.png": "/static/media/plantopia.51238c33983b73154e3d.png",
     "static/media/bookkeeperguru.jpeg": "/static/media/bookkeeperguru.ba7e94b5509d38c9f260.jpeg",
@@ -19,6 +19,7 @@
     "static/media/github.svg": "/static/media/github.e0d7d7254ac0545743fc7af09c1e977b.svg",
     "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/google-cloud.svg": "/static/media/google-cloud.e929444adcd04c02cd95f8e693a92db4.svg",
+    "static/media/python.svg": "/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/bootstrap.svg": "/static/media/bootstrap.98585727bcfe0b1555649ec9bbab236c.svg",
     "static/media/fontawesome.svg": "/static/media/fontawesome.00ea0fe10ab82c68fe823e48f0b8fef8.svg",
@@ -30,11 +31,11 @@
     "static/media/javascript.svg": "/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "static/media/material-ui.svg": "/static/media/material-ui.fd510ed8518b192069590b04e2e6348a.svg",
     "main.89b71254.css.map": "/static/css/main.89b71254.css.map",
-    "main.1907226a.js.map": "/static/js/main.1907226a.js.map",
+    "main.39171af7.js.map": "/static/js/main.39171af7.js.map",
     "787.d9a20797.chunk.js.map": "/static/js/787.d9a20797.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89b71254.css",
-    "static/js/main.1907226a.js"
+    "static/js/main.39171af7.js"
   ]
 }

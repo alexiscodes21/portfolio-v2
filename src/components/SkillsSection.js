@@ -1,9 +1,10 @@
-import htmlLogo from '../img/html.svg';
+import htmlLogo from "../img/html.svg";
 import cssLogo from "../img/css.svg";
-import javascriptLogo from '../img/javascript.svg'
+import javascriptLogo from "../img/javascript.svg";
 import sassLogo from "../img/sass.svg";
-import bootstrapLogo from '../img/bootstrap.svg'
-import gitLogo from '../img/git.svg'
+import bootstrapLogo from "../img/bootstrap.svg";
+import pythonLogo from "../img/python.svg";
+import gitLogo from "../img/git.svg";
 import githubLogo from "../img/github.svg";
 import reactLogo from "../img/react.svg";
 import reactnativeLogo from "../img/react-native.svg";
@@ -48,6 +49,11 @@ const SkillsSection = () => {
         <div className="skill">
           <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
             <img className="logos" src={bootstrapLogo} alt={"Bootstrap logo"} />
+          </a>
+        </div>
+        <div className="skill">
+          <a href="https://www.python.org" target="_blank" rel="noreferrer">
+            <img className="logos" src={pythonLogo} alt={"Python logo"} />
           </a>
         </div>
         <div className="skill">
@@ -123,6 +129,6 @@ const SkillsSection = () => {
       </div>
     </section>
   );
-}
+};
 
-export default SkillsSection
+export default SkillsSection;
