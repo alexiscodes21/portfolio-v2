@@ -11,7 +11,7 @@ const AboutSection = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Full Stack Developer", "Front End Developer", "Software Engineer", "Web Designer"],
+      strings: ["Software Engineer", "Full Stack Developer", "Front End Developer", "Web Designer"],
       typeSpeed: 75,
       backSpeed: 75,
       backDelay: 750,
@@ -33,9 +33,10 @@ const AboutSection = () => {
             <span ref={el} />
           </h3>
           <p>
-            I like to build things on the web. I'm a full-stack software developer with a passion for front-end development. I enjoy crafting
-            interactive and responsive websites that leave a lasting impression. Take a look at my portfolio and let's bring your ideas to life
-            together!
+            I like to build things. I'm a full-stack software developer who enjoys crafting 
+            interactive and responsive websites and mobile applications that leave a lasting impression. 
+            I'm currently expanding my skillset by learning Python and C++. 
+            Take a look at my portfolio and let's bring your ideas to life together!
           </p>
           <div className="social-media">
             <a href="https://www.linkedin.com/in/alexis-winters/" target="_blank" rel="noreferrer">
